@@ -3,9 +3,9 @@ import sys
 import pickle
 import numpy as np
 import pandas as pd
-from src.cycle-sense.logger import logging
-from src.FoodDeliveryTimePricePrediction.exception import customexception
-from src
+from src.cycle_sense.logger import logging
+from src.cycle_sense.exception import customexception
+
 
 from sklearn.metrics import r2_score, mean_absolute_error,mean_squared_error
 
